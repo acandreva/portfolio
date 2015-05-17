@@ -8,21 +8,21 @@
 }
 
 body {
-    background-image: url(images/paper_fibers.png);
+    background-image: url(../images/paper_fibers.png);
 }
 
 @font-face {
     font-family: "song";
-    src: url(song.ttf)format("truetype");
+    src: url(../fonts/song.ttf)format("truetype");
 }
 
 #container {
-    background-image: url(images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     width: 1200px;
     margin: auto;
     height: 5941px;
-        /*padding-top: 1000px;*/
+    /*padding-top: 1000px;*/
 }
 
 section {
@@ -138,7 +138,7 @@ h4 {
 }
 
 #abouttext {
-    background-image: url(images/aboutbox.png);
+    background-image: url(../images/aboutbox.png);
     width: 432px;
     height: 502px;
     margin-left: 400px;
@@ -183,100 +183,100 @@ h4 {
 /*Clips thumbnails*/
 
 /*NYT Times Digest clips thumbnails*/
-#td072314 {background-image: url(images/thumbs/td072314thumb.png);}
-#td072214 {background-image: url(images/thumbs/td072214thumb.png);}
-#td072114 {background-image: url(images/thumbs/td072114thumb.png);}
-#td071714 {background-image: url(images/thumbs/td071714thumb.png);}
-#td062014 {background-image: url(images/thumbs/td062014thumb.png);}
-#td061914 {background-image: url(images/thumbs/td061914thumb.png);}
-#td060914 {background-image: url(images/thumbs/td060914thumb.png);}
-#td052914 {background-image: url(images/thumbs/td052914thumb.png);}
-#td052814 {background-image: url(images/thumbs/td052814thumb.png);}
-#td052014 {background-image: url(images/thumbs/td052014thumb.png);}
-#td051914 {background-image: url(images/thumbs/td051914thumb.png);}
-#td050714 {background-image: url(images/thumbs/td050714thumb.png);}
-#td050514 {background-image: url(images/thumbs/td050514thumb.png);}
-#td042814 {background-image: url(images/thumbs/td042814thumb.png);}
-#td032414 {background-image: url(images/thumbs/td032414thumb.png);}
-#td031214 {background-image: url(images/thumbs/td031214thumb.png);}
-#td031114 {background-image: url(images/thumbs/td031114thumb.png);}
-#td031014 {background-image: url(images/thumbs/td031014thumb.png);}
-#td111111 {background-image: url(images/thumbs/td111111thumb.png);}
-#td102211 {background-image: url(images/thumbs/td102211thumb.png);}
-#td101511 {background-image: url(images/thumbs/td101511thumb.png);}
-#td081911 {background-image: url(images/thumbs/td081911thumb.png);}
-#td080111 {background-image: url(images/thumbs/td080111thumb.png);}
-#td072911 {background-image: url(images/thumbs/td072911thumb.png);}
-#td072811 {background-image: url(images/thumbs/td072811thumb.png);}
-#td072711 {background-image: url(images/thumbs/td072711thumb.png);}
-#td072611 {background-image: url(images/thumbs/td072611thumb.png);}
-#td072511 {background-image: url(images/thumbs/td072511thumb.png);}
-#td072211 {background-image: url(images/thumbs/td072211thumb.png);}
+#td072314 {background-image: url(../images/thumbs/td072314thumb.png);}
+#td072214 {background-image: url(../images/thumbs/td072214thumb.png);}
+#td072114 {background-image: url(../images/thumbs/td072114thumb.png);}
+#td071714 {background-image: url(../images/thumbs/td071714thumb.png);}
+#td062014 {background-image: url(../images/thumbs/td062014thumb.png);}
+#td061914 {background-image: url(../images/thumbs/td061914thumb.png);}
+#td060914 {background-image: url(../images/thumbs/td060914thumb.png);}
+#td052914 {background-image: url(../images/thumbs/td052914thumb.png);}
+#td052814 {background-image: url(../images/thumbs/td052814thumb.png);}
+#td052014 {background-image: url(../images/thumbs/td052014thumb.png);}
+#td051914 {background-image: url(../images/thumbs/td051914thumb.png);}
+#td050714 {background-image: url(../images/thumbs/td050714thumb.png);}
+#td050514 {background-image: url(../images/thumbs/td050514thumb.png);}
+#td042814 {background-image: url(../images/thumbs/td042814thumb.png);}
+#td032414 {background-image: url(../images/thumbs/td032414thumb.png);}
+#td031214 {background-image: url(../images/thumbs/td031214thumb.png);}
+#td031114 {background-image: url(../images/thumbs/td031114thumb.png);}
+#td031014 {background-image: url(../images/thumbs/td031014thumb.png);}
+#td111111 {background-image: url(../images/thumbs/td111111thumb.png);}
+#td102211 {background-image: url(../images/thumbs/td102211thumb.png);}
+#td101511 {background-image: url(../images/thumbs/td101511thumb.png);}
+#td081911 {background-image: url(../images/thumbs/td081911thumb.png);}
+#td080111 {background-image: url(../images/thumbs/td080111thumb.png);}
+#td072911 {background-image: url(../images/thumbs/td072911thumb.png);}
+#td072811 {background-image: url(../images/thumbs/td072811thumb.png);}
+#td072711 {background-image: url(../images/thumbs/td072711thumb.png);}
+#td072611 {background-image: url(../images/thumbs/td072611thumb.png);}
+#td072511 {background-image: url(../images/thumbs/td072511thumb.png);}
+#td072211 {background-image: url(../images/thumbs/td072211thumb.png);}
 
 /*International Daily clips thumbnails*/
-#id080910 {background-image: url(images/thumbs/id080910thumb.png);}
-#id080210 {background-image: url(images/thumbs/id080210thumb.png);}
-#id072610 {background-image: url(images/thumbs/id072610thumb.png);}
+#id080910 {background-image: url(../images/thumbs/id080910thumb.png);}
+#id080210 {background-image: url(../images/thumbs/id080210thumb.png);}
+#id072610 {background-image: url(../images/thumbs/id072610thumb.png);}
 
 /*Lake City Reporter clips thumbnails*/
-#lcr042910 {background-image: url(images/thumbs/lcr042910thumb.png);}
-#lcr042410 {background-image: url(images/thumbs/lcr042410thumb.png);}
-#lcr042310 {background-image: url(images/thumbs/lcr042310thumb.png);}
-#lcr041510 {background-image: url(images/thumbs/lcr041510thumb.png);}
-#lcr040910 {background-image: url(images/thumbs/lcr040910thumb.png);}
-#lcr031010 {background-image: url(images/thumbs/lcr031010thumb.png);}
+#lcr042910 {background-image: url(../images/thumbs/lcr042910thumb.png);}
+#lcr042410 {background-image: url(../images/thumbs/lcr042410thumb.png);}
+#lcr042310 {background-image: url(../images/thumbs/lcr042310thumb.png);}
+#lcr041510 {background-image: url(../images/thumbs/lcr041510thumb.png);}
+#lcr040910 {background-image: url(../images/thumbs/lcr040910thumb.png);}
+#lcr031010 {background-image: url(../images/thumbs/lcr031010thumb.png);}
 
 /*Other clips thumbnails*/
-#senior {background-image: url(images/thumbs/seniorthumb.png);}
-#ourtown {background-image: url(images/thumbs/ourtownthumb.png);}
-#satellite {background-image: url(images/thumbs/satellitethumb.png);}
-#other {background-image: url(images/thumbs/otherthumb.png);}
+#senior {background-image: url(../images/thumbs/seniorthumb.png);}
+#ourtown {background-image: url(../images/thumbs/ourtownthumb.png);}
+#satellite {background-image: url(../images/thumbs/satellitethumb.png);}
+#other {background-image: url(../images/thumbs/otherthumb.png);}
 
 
 /*Media thumbnails*/
 
 /*Indesign*/
-#recipebook {background-image: url(images/thumbs/recipebookthumb.png);}
-#travel {background-image: url(images/thumbs/travelthumb.png);}
-#guide {background-image: url(images/thumbs/guidethumb.png);}
-#flyers {background-image: url(images/thumbs/flyerthumb.png);}
+#recipebook {background-image: url(../images/thumbs/recipebookthumb.png);}
+#travel {background-image: url(../images/thumbs/travelthumb.png);}
+#guide {background-image: url(../images/thumbs/guidethumb.png);}
+#flyers {background-image: url(../images/thumbs/flyerthumb.png);}
 
 /*Photoshop*/
-#cokead {background-image: url(images/thumbs/cokeadthumb.png);}
-#fungator {background-image: url(images/thumbs/fungatorthumb.png);}
-#leader {background-image: url(images/thumbs/leaderthumb.png);}
-#shampoo {background-image: url(images/thumbs/shampoothumb.png);}
-#sochi {background-image: url(images/thumbs/sochisitethumb.png);}
-#composite {background-image: url(images/thumbs/compositethumb.png);}
-#daycare {background-image: url(images/thumbs/daycarelogothumb.png);}
-#retire {background-image: url(images/thumbs/retirelogothumb.png);}
+#cokead {background-image: url(../images/thumbs/cokeadthumb.png);}
+#fungator {background-image: url(../images/thumbs/fungatorthumb.png);}
+#leader {background-image: url(../images/thumbs/leaderthumb.png);}
+#shampoo {background-image: url(../images/thumbs/shampoothumb.png);}
+#sochi {background-image: url(../images/thumbs/sochisitethumb.png);}
+#composite {background-image: url(../images/thumbs/compositethumb.png);}
+#daycare {background-image: url(../images/thumbs/daycarelogothumb.png);}
+#retire {background-image: url(../images/thumbs/retirelogothumb.png);}
 
 /*Illustrator*/
-#floridakids {background-image: url(images/thumbs/fkewthumb.png);}
-#jones {background-image: url(images/thumbs/jonesthumb.png);}
-#remade2 {background-image: url(images/thumbs/remadeguidethumb.png);}
-#remade1 {background-image: url(images/thumbs/remadeidentitythumb.png);}
+#floridakids {background-image: url(../images/thumbs/fkewthumb.png);}
+#jones {background-image: url(../images/thumbs/jonesthumb.png);}
+#remade2 {background-image: url(../images/thumbs/remadeguidethumb.png);}
+#remade1 {background-image: url(../images/thumbs/remadeidentitythumb.png);}
 
 /*Flash*/
-#vegshow {background-image: url(images/thumbs/vegshowthumb.png);}
-#ccvideo {background-image: url(images/thumbs/ccvideothumb.png);}
-#kitk {background-image: url(images/thumbs/kitkthumb.png);}
-#recipe {background-image: url(images/thumbs/recipethumb.png);}
-#mars {background-image: url(images/thumbs/marsthumb.png);}
-#series {background-image: url(images/thumbs/seriesthumb.png);}
-#swat {background-image: url(images/thumbs/swatthumb.png);}
-#blank {background-image: url(images/thumbs/blankthumb.png);}
-/*#june {background-image: url(images/thumbs/junethumb.png);}*/
+#vegshow {background-image: url(../images/thumbs/vegshowthumb.png);}
+#ccvideo {background-image: url(../images/thumbs/ccvideothumb.png);}
+#kitk {background-image: url(../images/thumbs/kitkthumb.png);}
+#recipe {background-image: url(../images/thumbs/recipethumb.png);}
+#mars {background-image: url(../images/thumbs/marsthumb.png);}
+#series {background-image: url(../images/thumbs/seriesthumb.png);}
+#swat {background-image: url(../images/thumbs/swatthumb.png);}
+#blank {background-image: url(../images/thumbs/blankthumb.png);}
+/*#june {background-image: url(../images/thumbs/junethumb.png);}*/
 
 /*Slideshows*/
-#animals {background-image: url(images/thumbs/animalsthumb.png);}
-#berlin {background-image: url(images/thumbs/berlinthumb.png);}
-#centralpark {background-image: url(images/thumbs/centralparkthumb.png);}
-#misc {background-image: url(images/thumbs/miscthumb.png);}
-#paris {background-image: url(images/thumbs/paristhumb.png);}
-#people {background-image: url(images/thumbs/peoplethumb.png);}
-#plants {background-image: url(images/thumbs/plantsthumb.png);}
-#workphotos {background-image: url(images/thumbs/workphotosthumb.png);}
+#animals {background-image: url(../images/thumbs/animalsthumb.png);}
+#berlin {background-image: url(../images/thumbs/berlinthumb.png);}
+#centralpark {background-image: url(../images/thumbs/centralparkthumb.png);}
+#misc {background-image: url(../images/thumbs/miscthumb.png);}
+#paris {background-image: url(../images/thumbs/paristhumb.png);}
+#people {background-image: url(../images/thumbs/peoplethumb.png);}
+#plants {background-image: url(../images/thumbs/plantsthumb.png);}
+#workphotos {background-image: url(../images/thumbs/workphotosthumb.png);}
 
 
 #resume img{
@@ -294,7 +294,7 @@ h4 {
 }
 
 #contactform {
-    background-image: url(images/contactbox.png);
+    background-image: url(../images/contactbox.png);
     width: 430px;
     height: 580px;
     margin-left: 400px;
@@ -303,7 +303,7 @@ h4 {
 
 /*
 #myform {
-    background-image: url(images/contactbox.png);
+    background-image: url(../images/contactbox.png);
     width: 350px;
     height: 530px;
     padding: 20px 50px 20px 20px;
