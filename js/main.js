@@ -15,4 +15,10 @@ $(document).ready( function () {
     //BACKSTRETCH
     $.backstretch('images/grandcanyon.jpg');
 
+    //FORM
+    $('#myform').submit(function( event ) {
+        event.preventDefault();
+        $('#myform').trigger('reset');
+        alert('Thank you for your submission.');
+    });
 });
