@@ -1,0 +1,194 @@
+/* This is the stylesheet for my first page. */
+
+body {
+background-image: url(images/papertext2.jpg); /* the background color was #00A8EC, if you take the image out, put this back*/
+background-repeat: repeat;
+font-family: helvetica, lucida, sans-serif;
+font-size: 12px;
+}
+
+div#wrapper {
+width: 760px;
+background-color: #D4ECFB;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+border: 4px;
+border-color: #005073;
+border-style: groove;
+}
+
+h1 {
+font-family: palatino, bookman, serif; 
+font-size: 24px;
+color: #008DC6;
+}
+
+div#banner {
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+text-align: center;
+}
+
+/* These are the sytles for all of the links, except navigation. */
+
+a:link {
+color: #00A49D;
+text-decoration: underline;
+}
+
+a:hover {
+color: #92007B;
+text-decoration: none;
+}
+
+a:active {
+color: #92007B;
+text-decoration: none;
+}
+
+a:visited {
+color: #00A49D;
+text-decoration: underline;
+}
+
+/* This is the end of the link styles. */
+
+div#navigation {
+width: 105px;
+float: left;
+font-size: 16px;
+margin-left: auto;
+margin-right: 10px;
+padding: 3px;
+font-family: palatino, bookman, serif; 
+text-align: left;
+}
+
+div#navigation ul {
+margin: 0;
+padding: 0;
+}
+
+#navigation li {
+list-style-type: none;
+margin-top: 20px;
+margin-right: 0;
+margin-bottom: 20px;
+margin-left: 0;
+}
+
+/* These are the styles for the navigation. */
+
+#navigation a:link {
+display: block; /* this will give equal width to the buttons */
+width: 95px; /* This sets the width of the buttons */
+text-align: center; /* add this to center the text in the buttons */
+color: #FFFFFF;
+background-color: #008080;
+text-decoration: none;
+font-weight: bold;
+border-style: ridge;
+border-width: 2px;
+border-color: #FFFFFF;
+padding: 3px;
+}
+
+#navigation a:visited {
+display: block; /* this will give equal width to the buttons */
+width: 95px; /* This sets the width of the buttons */
+text-align: center; /* add this to center the text in the buttons */
+color: #FFFFFF;
+background-color: #008080;
+text-decoration: none;
+font-weight: bold;
+border-style: ridge;
+border-width: 2px;
+border-color: #FFFFFF;
+padding: 3px;
+}
+
+#navigation a:hover {
+display: block; /* this will give equal width to the buttons */
+width: 95px; /* This sets the width of the buttons */
+text-align: center; /* add this to center the text in the buttons */
+color: #008080;
+background-color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+border-style: ridge;
+border-width: 2px;
+border-color: #008080;
+padding: 3px;
+}
+
+#navigation a:active {
+display: block; /* this will give equal width to the buttons */
+width: 95px; /* This sets the width of the buttons */
+text-align: center; /* add this to center the text in the buttons */
+color: #FFFFFF;
+background-color: #008080;
+text-decoration: none;
+font-weight: bold;
+border-style: ridge;
+border-width: 2px;
+border-color: #FFFFFF;
+padding: 3px;
+}
+
+/* This is the end of the navigation styles. */
+
+div#content {
+/* This is the div for the content.*/
+margin-left: 127px; /* This moves the content to the left leaving room for a right navigation bar */ 
+margin-right: auto; 
+padding-left: 3px;
+padding-right: 3px;
+text-align: left;
+font-size: 13px;
+}
+
+p {
+text-indent: 18px;
+}
+
+.right {
+float: right;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: 3px;
+border-style: ridge;
+border-color: #00A8EC;
+}
+
+.center {
+border: 3px;
+border-style: ridge;
+border-color: #00A8EC;
+}
+
+.left {
+float: left;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: 3px;
+border-style: ridge;
+border-color: #00A8EC;
+}
+
+#bottom-nav {
+width: 760px;
+text-align: center;
+font-size: 12px;
+}
+
+div#footer {
+/* This is the div for the footer, keep it small and centered.*/
+font-family: palatino, bookman, serif; 
+width: 760px;
+text-align:center;
+font-size: 10px;
+}
