@@ -24,12 +24,12 @@ body {
     height: 5941px;
     /*padding-top: 1000px;*/
 }
-
+/*
 section {
         width: 1200px;
         height: 1000px;
         margin: auto;
-}
+}*/
 
 #social {
         position: fixed;
@@ -48,7 +48,7 @@ section {
         left: 93%;
 }
 
-/*CSS for navigation begins*/
+/*CSS for navigation begins
 .header {
     position: fixed;
     top: 0;

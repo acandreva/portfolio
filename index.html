@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Allison Logan | Portfolio</title>
 
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/style.css" rel="jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
     <link rel="icon" href="images/icon.gif" type="image/x-icon" />
     <link rel="shortcut icon" href="images/icon.gif" type="image/x-icon" />
 
@@ -15,7 +15,7 @@
 
 <body>
 
-<div id="container fullpage">
+<div id="fullpage">
 
     <div id="social">
         <a href="https://www.linkedin.com/in/allisoncandreva" target="_blank" ><img src="images/linkedin.png" alt="LinkedIn Link" title="My linkedin page"></a>
@@ -33,15 +33,13 @@
          </nav>
     </header>
 
-
-    <div id="topbutton"><a href="#container"><img src="images/topbutton1.png" width="52px" height="52px" alt="button to top of page" title="button to top of page" /></a></div>
-
-    <section id="home">
+    <section id="home" class="section">
         <img src="images/homelogo.png" width="369px" height="290px" alt="home logo" title="home logo" class="homelogo" />
     </section>
 
     <!--About-->
-    <section id="about" class="waypoint" data-animate-down="header-top" data-animate-up="header-middle">
+    <!--<section id="about" class="waypoint" data-animate-down="header-top" data-animate-up="header-middle">-->
+        <section data-anchor="about" class="section">
         <h1>About</h1>
         <div id="abouttext">
             <p>Some say the secret to journalism is lots of coffee.</p>
@@ -54,7 +52,7 @@
     </section><!--end of about section-->
 
     <!--Clips-->
-    <section id="clips">
+    <section id="clips" class="section">
         <h1>Clips</h1>
 
         <div id="clipscontent">
@@ -341,7 +339,7 @@
                 <a class="fancybox" rel="td072511" href="images/clipsimg/td072511/td072511_3.jpg" alt="The New Tork Times Digest July 25, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
                 <a class="fancybox" rel="td072511" href="images/clipsimg/td072511/td072511_4.jpg" alt="The New Tork Times Digest July 25, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
                 <a class="fancybox" rel="td072511" href="images/clipsimg/td072511/td072511_5.jpg" alt="The New Tork Times Digest July 25, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
-                <a class="fancybox" rel="td072511" href="images/clipsimg/td072511/td072511_6.jpg" alt="The New Tork Times Digest July 25, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>-->
+                <a class="fancybox" rel="td072511" href="images/clipsimg/td072511/td072511_6.jpg" alt="The New Tork Times Digest July 25, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
 
     <!--break-->
 
@@ -352,7 +350,7 @@
                 <a class="fancybox" rel="td072211" href="images/clipsimg/td072211/td072211_3.jpg" alt="The New Tork Times Digest July 22, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
                 <a class="fancybox" rel="td072211" href="images/clipsimg/td072211/td072211_4.jpg" alt="The New Tork Times Digest July 22, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
                 <a class="fancybox" rel="td072211" href="images/clipsimg/td072211/td072211_5.jpg" alt="The New Tork Times Digest July 22, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
-                <a class="fancybox" rel="td072211" href="images/clipsimg/td072211/td072211_5.jpg" alt="The New Tork Times Digest July 22, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>-->
+                <a class="fancybox" rel="td072211" href="images/clipsimg/td072211/td072211_5.jpg" alt="The New Tork Times Digest July 22, 2011 | Editing &amp; Design" title="The New York Times Digest | Editing &amp; Design"></a>
 
 
     <!--International Daily ** break -->
@@ -514,7 +512,7 @@
     </section> <!--end of clips section-->
 
     <!--Media-->
-    <section id="media">
+    <section id="media" class="section">
 
             <h1>Media</h1>
 
@@ -678,13 +676,13 @@
     </section> <!--end of media section-->
 
     <!--Resume-->
-    <section id="resume">
+    <section id="resume" class="section">
             <h1>Resume</h1>
                 <a class="fancybox" href="images/candrevaresume.pdf" data-fancybox-type="iframe" alt="Allison Candreva's Re&#769;sume&#769;" title="Allison Candreva | Re&#769;sume&#769;"><img src="images/thumbs/resumethumb.jpg" width="600px" height="777px" alt="Allison Candreva's Re&#769;sume&#769;" title="Allison Candreva | Re&#769;sume&#769;"/></a>
     </section> <!--end of resume section-->
 
     <!--Contact-->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1>Contact</h1>
         <div id="contactform">
             <div id="wufoo-m12nh3xl0u3h68c">
@@ -730,25 +728,30 @@
 
 </div><!--container div-->
 
-<!-- Add jQuery library-->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add jQuery library
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 <!--fullPage plugin-->
 <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-<script src="vendors/jquery.easings.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+
 
 <!--fancybox-->
-<!-- Add mousewheel plugin (this is optional)-->
+<!-- Add mousewheel plugin (this is optional)
 <script type="text/javascript" src="fancyboxstuff/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-<!-- Add fancyBox-->
+<!-- Add fancyBox
 <link rel="stylesheet" href="fancyboxstuff/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script type="text/javascript" src="fancyboxstuff/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 <script type="text/javascript" src="fancyboxstuff/fancybox.js"></script>
 <!--end fancybox stuff-->
 
-<script src="js/waypoints.min.js"></script>
+<!--slow scroll
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/slowscroll.js"></script>
 <script>
     var $head = $( '#header' );
     $( '.waypoint' ).each( function(i) {
@@ -779,7 +782,10 @@
         });
     });
 
-</script>
+</script>-->
+
+<script src="js/main.js"></script>
+
 
 </body>
 </html>
