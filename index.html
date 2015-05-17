@@ -7,6 +7,7 @@
     <title>Allison Logan | Portfolio</title>
 
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="jquery.fullPage.css" />
     <link rel="icon" href="images/icon.gif" type="image/x-icon" />
     <link rel="shortcut icon" href="images/icon.gif" type="image/x-icon" />
 
@@ -14,7 +15,7 @@
 
 <body>
 
-<div id="container">
+<div id="container fullpage">
 
     <div id="social">
         <a href="https://www.linkedin.com/in/allisoncandreva" target="_blank" ><img src="images/linkedin.png" alt="LinkedIn Link" title="My linkedin page"></a>
@@ -729,9 +730,15 @@
 
 </div><!--container div-->
 
-<!--fancybox stuff-->
 <!-- Add jQuery library-->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!--fullPage plugin-->
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<script src="vendors/jquery.easings.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+<!--fancybox-->
 <!-- Add mousewheel plugin (this is optional)-->
 <script type="text/javascript" src="fancyboxstuff/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 <!-- Add fancyBox-->
