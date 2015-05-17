@@ -1,9 +1,18 @@
 $(document).ready( function () {
 
     //FULLPAGE
-    $(document).ready(function() {
-        $('#fullpage').fullpage();
+    $('#fullpage').fullpage();
+
+    //FANCYBOX
+    $(".fancybox").fancybox();
+
+    //MIXITUP FILTERING
+    $(function(){
+        // Instantiate MixItUp:
+        $('#skills_tags').mixItUp();
     });
 
+    //BACKSTRETCH
+    $.backstretch('images/grandcanyon.jpg');
 
 });
