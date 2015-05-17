@@ -1,10 +1,10 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,90 +18,89 @@ body {
 
 #container {
     background-image: url(images/background.jpg);
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     width: 1200px;
     margin: auto;
     height: 5941px;
-	/*padding-top: 1000px;*/
+        /*padding-top: 1000px;*/
 }
 
 section {
-	width: 1200px;
-	height: 1000px;
-	margin: auto;
+        width: 1200px;
+        height: 1000px;
+        margin: auto;
 }
 
 #social {
-	position: fixed;
-	left: 1060px;
-	top: 15px;
+        position: fixed;
+        left: 1060px;
+        top: 15px;
 }
 
 .homelogo {
-	margin-left: 425px;
-	margin-top: 100px;/*225px*/
+        margin-left: 425px;
+        margin-top: 100px;/*225px*/
 }
 
 #topbutton {
-	position: fixed;
-	top: 90%;
-	left: 93%;
+        position: fixed;
+        top: 90%;
+        left: 93%;
 }
 
 /*CSS for navigation begins*/
-	
-	.header {
-	position: fixed;
-	top: 0;
-	width: 500px;
-	margin-left: 350px;
-	-webkit-transform: translateY(0%);
-	-moz-transform: translateY(0%);
-	transform: translateY(0%);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	}
-	
-	
-	.header nav {
-		text-align: center;
-	}
-	
-	.header nav a {
-		width: 90px;
-		height: 50px;
-		background: #9bdecd; 
-		-moz-border-radius: 70px; 
-		-webkit-border-radius: 70px; 
-		border-radius: 70px;
-		margin: 5px;
-		float: left;
-		-webkit-box-shadow: 5px 5px 5px 5px #333;
-		box-shadow: 5px 5px 5px 5px #333;
-		color: #FFF;
-		font-size: 28px;
-		text-decoration: none;
-		font-family: Song;
-		font-weight: normal;
-		padding-top: 10px;
-	}
-	
-	.header nav a:hover {
-		text-decoration: underline;
-		-webkit-box-shadow: inset 3px 3px 3px 3px #333;
-		box-shadow: inset 3px 3px 3px 3px #333;
-	}
-	
-	.header-middle {
-		top: 400px;
-	}
-	
-	.header-top {
-		top: 10px;
-	}
-	
-	/*End CSS for navigation*/
+.header {
+    position: fixed;
+    top: 0;
+    width: 500px;
+    margin-left: 350px;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.header nav {
+            text-align: center;
+}
+
+.header nav a {
+    width: 90px;
+    height: 50px;
+    background: #9bdecd;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin: 5px;
+    float: left;
+    -webkit-box-shadow: 5px 5px 5px 5px #333;
+    box-shadow: 5px 5px 5px 5px #333;
+    color: #FFF;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: Song;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+    -webkit-box-shadow: inset 3px 3px 3px 3px #333;
+    box-shadow: inset 3px 3px 3px 3px #333;
+}
+
+.header-middle {
+            top: 400px;
+}
+
+.header-top {
+    top: 10px;
+}
+
+/*End CSS for navigation*/
 
 
 h1 {
@@ -110,32 +109,32 @@ h1 {
     font-family: Song;
     font-weight: normal;
     font-size: 100px;
-	text-shadow: 5px 5px 5px #333;
+        text-shadow: 5px 5px 5px #333;
     padding-top: 50px;
 }
 
 h2, h3 {
-	color: #FFF;
+        color: #FFF;
     font-family: Song;
-	font-weight: normal;
-	font-size: 40px;
-	text-shadow: 5px 5px 5px #000;
-	border-bottom: 2px solid #FFF;
+        font-weight: normal;
+        font-size: 40px;
+        text-shadow: 5px 5px 5px #000;
+        border-bottom: 2px solid #FFF;
 }
 
 h2 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 h4 {
-	color: #FFF;
+    color: #FFF;
     font-family: Song;
-	font-weight: normal;
-	font-size: 35px;
-	text-shadow: 5px 5px 5px #000;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #FFF;
+    font-weight: normal;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px #000;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FFF;
 }
 
 #abouttext {
@@ -147,43 +146,43 @@ h4 {
 }
 
 #abouttext p {
-	line-height: 20px;
-	padding-bottom: 10px;
-	font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #clipscontent, #mediacontent {
-	width: 600px;
-	height: 600px;
+    width: 600px;
+    height: 600px;
     margin-left: 300px;
-	overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 /* This is where the info for the sprite/rollover goes*/
 #clipscontent ul, #mediacontent ul {
-	padding: 0px;
-	list-style-type: none;
-	float: left;
-	}
-	
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+}
+
 #clipscontent ul li, #mediacontent ul li {
-	float: left;
-	margin: 0 2px 10px 2px; 
-	}
+    float: left;
+    margin: 0 2px 10px 2px;
+}
 
 #clipscontent ul li a, #mediacontent ul li a {
-	display: block;
-	width: 139px; 
-	height: 133px; 
-	}
-	
+    display: block;
+    width: 139px;
+    height: 133px;
+}
+
 #clipscontent ul li a:hover, #mediacontent ul li a:hover {
- 	background-position: center 137px; 
-	}
-	
+    background-position: center 137px;
+}
+
 /*Clips thumbnails*/
 
-/*NYT Times Digest clips thumbnails*/		
+/*NYT Times Digest clips thumbnails*/
 #td072314 {background-image: url(images/thumbs/td072314thumb.png);}
 #td072214 {background-image: url(images/thumbs/td072214thumb.png);}
 #td072114 {background-image: url(images/thumbs/td072114thumb.png);}
@@ -212,14 +211,14 @@ h4 {
 #td072711 {background-image: url(images/thumbs/td072711thumb.png);}
 #td072611 {background-image: url(images/thumbs/td072611thumb.png);}
 #td072511 {background-image: url(images/thumbs/td072511thumb.png);}
-#td072211 {background-image: url(images/thumbs/td072211thumb.png);} 
+#td072211 {background-image: url(images/thumbs/td072211thumb.png);}
 
-/*International Daily clips thumbnails*/	
+/*International Daily clips thumbnails*/
 #id080910 {background-image: url(images/thumbs/id080910thumb.png);}
 #id080210 {background-image: url(images/thumbs/id080210thumb.png);}
 #id072610 {background-image: url(images/thumbs/id072610thumb.png);}
 
-/*Lake City Reporter clips thumbnails*/	
+/*Lake City Reporter clips thumbnails*/
 #lcr042910 {background-image: url(images/thumbs/lcr042910thumb.png);}
 #lcr042410 {background-image: url(images/thumbs/lcr042410thumb.png);}
 #lcr042310 {background-image: url(images/thumbs/lcr042310thumb.png);}
@@ -227,7 +226,7 @@ h4 {
 #lcr040910 {background-image: url(images/thumbs/lcr040910thumb.png);}
 #lcr031010 {background-image: url(images/thumbs/lcr031010thumb.png);}
 
-/*Other clips thumbnails*/	
+/*Other clips thumbnails*/
 #senior {background-image: url(images/thumbs/seniorthumb.png);}
 #ourtown {background-image: url(images/thumbs/ourtownthumb.png);}
 #satellite {background-image: url(images/thumbs/satellitethumb.png);}
@@ -281,12 +280,12 @@ h4 {
 
 
 #resume img{
-	width: 600px;
+    width: 600px;
     margin-left: 300px;
-	-webkit-box-shadow: 5px 5px 5px 5px #333;
-	box-shadow: 5px 5px 5px 5px #333;
+    -webkit-box-shadow: 5px 5px 5px 5px #333;
+    box-shadow: 5px 5px 5px 5px #333;
     border-radius: 20px;
-	border: 1px solid #333;	
+    border: 1px solid #333;
 }
 
 #contact {
@@ -311,46 +310,46 @@ h4 {
 }
 
 label {
-	font-size: 25px;
-	font-family: Song;
+    font-size: 25px;
+    font-family: Song;
 }
 
 input {
-	width: 330px;
-	padding: 5px;
-	margin: 5px;
-	border: 1px #4D4D4D solid;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+    width: 330px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px #4D4D4D solid;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 textarea {
-	margin-bottom: 5px;
-	border: 1px #4D4D4D solid;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	padding: 5px;
+    margin-bottom: 5px;
+    border: 1px #4D4D4D solid;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
 }
 
 input[type="submit"], input[type="reset"] {
-	width: 100px;
-	font-size: 25px;
-	text-decoration: none;
-	font-family: Song;
-	font-weight: normal;
-	color: #6d6e71;
-	background: #9bdecd; 
-	-moz-border-radius: 15px; 
-	-webkit-border-radius: 15px; 
-	border-radius: 15px;
+    width: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Song;
+    font-weight: normal;
+    color: #6d6e71;
+    background: #9bdecd;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
 }
 
 input[type="submit"] {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 
