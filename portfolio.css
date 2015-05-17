@@ -1,0 +1,279 @@
+/* This is the stylesheet for my resume and portfolio site. */
+
+body {
+	background-color: #FFF;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#banner {
+	width: 100%;
+	margin: 0 0 18px 0;
+	padding: 0;
+ 	background: #333;
+ 	position: relative;
+ 	height: 50px;
+	border-top: 7px solid #3399CC;
+	border-bottom: 7px solid #3399CC;
+ 	text-align:left;
+}
+
+#banner h1 {
+	padding: 5px 0 0 5px;
+	margin: 13px 10px 0 0;
+	font-size: 25px;
+	font-family: "Palatino Linotype", Georgia, serif;
+	line-height: .5em;
+	float: right;
+	color: #FFF;
+}
+
+#banner h1 span {
+	color: #8CE0F4;
+}
+
+#navlist {
+	position: relative;
+	width: 860px;
+	height: 18px;
+	margin: 28px 0 0 5px;
+	padding: 0;
+}
+
+#navlist li {
+	float: left;
+	margin: 0 0 0 2px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navlist li a {
+	position: relative;
+	width: 85px;
+	display: block;
+	margin: 0;
+	padding: 1px 0.4em;
+	color: #FFF;
+	font: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navlist li a:hover {
+	background-color: #3399CC;
+	border-bottom: 7px solid #3399CC;
+	text-decoration: none;
+}
+
+#navlist li#active a {
+	background-color: #3399CC;
+	color: #FFF;
+	border-bottom: 7px solid #3399CC;
+}
+
+#navlist li#active a:hover { 
+	text-decoration: underline;
+	}
+
+#navlist ul#subnavlist {
+	position: absolute;
+	width: 860px;
+	left: 0;
+	top: 29px;
+	height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+#navlist ul#subnavlist li {
+	width: 150px;
+	margin: 0;
+	border: 0;
+}
+
+#navlist ul#subnavlist li a {
+	width: auto;
+	margin: 0;
+	padding: 2px;
+	border: 0;
+	background-color: #fff;
+	color: #000;
+	font: 10px;
+}
+
+#navlist ul#subnavlist li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#navlist ul#subnavlist li#subactive a {
+	background-color: #3399CC;
+	color: #FFF;
+}
+
+div#wrapper {
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+/* This is the styles for the sidebar. */
+
+div#sidebar {
+	width: 110px;
+	float: right;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-right: 100px;
+	padding: 3px;
+	text-align: right;
+}
+
+div#sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li {
+	list-style-type: none;
+	margin-top: 3px 0 3px 0;
+}
+
+#sidebar h3 {
+	text-align: right;
+}
+
+/* This is the start of links to other sites styles. */
+
+.links {
+	font-size: 12px;
+}
+
+.links a:link {
+text-decoration: none;
+color: #000000;
+}
+
+.links a:visited {
+text-decoration: none;
+color: #000000;
+}
+
+.links a:hover {
+text-decoration: underline;
+color: #000000;
+}
+
+.links a:active {
+text-decoration: none;
+color: #000000;
+}
+
+/* This is the end of links to other sites styles. */
+
+/* These are the sytles for the links. */
+
+a:link {
+color: #0198E1;
+text-decoration: underline;
+}
+
+a:hover {
+color: #0EBFE9;
+text-decoration: none;
+}
+
+a:active {
+color: #0EBFE9;
+text-decoration: none;
+}
+
+a:visited {
+color: #0198E1; 
+text-decoration: underline;
+}
+
+/* This is the end of the link styles. */
+
+div#content {
+margin-left: 200px;
+margin-right: 300px; 
+padding-left: 3px;
+padding-right: 3px;
+text-align: left;
+font-size: 12px;
+}
+
+#content ul {
+list-style-type: none;
+line-height: 16px;
+}
+
+h2 {
+font-size: 19px;
+color: #008DC6;
+text-align: center;
+}
+
+h3 {
+font-family: palatino, bookman, serif;
+font-size: 17px;
+color: #008DC6;
+text-align: left;
+}
+
+h4 {
+font-size: 13px;
+color: #000;
+}
+
+.right {
+float: right;
+margin: 10px 0 10px 10px;
+border: 2px solid #000;
+}
+
+.rtnoborder {
+float: right;
+margin: 5px 0 5px 5px;
+}
+
+.left {
+float: left;
+margin: 10px 10px 10px 0;
+border: 2px solid #000;
+}
+
+#bottom {
+	margin: 0;
+	padding: 0;
+ 	background: #333;
+ 	position: relative;
+	border-top:.5em solid #3399CC;
+ 	text-align: center;
+ 	height: 200px;
+}
+
+#bottom-nav {
+	margin: 5px 0 0 0;
+	font-size: 11px;
+	color: #FFF;
+}
+
+#bottom-nav a {
+	color: #3399CC; 
+	text-decoration: none;
+}
+
+#bottom-nav a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+#footer {
+	/* This is the div for the footer, keep it small and centered.*/
+	font-size: 9px;
+	color: #FFF;
+	line-height: .5em;
+}
