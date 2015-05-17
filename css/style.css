@@ -16,10 +16,6 @@ body {
     src: url(../fonts/song.ttf)format("truetype");
 }
 
-.hidden_info {
-    display: none;
-}
-
 /*BACKGROUNDS*/
 .about, .skills {
     background-color: #579CA2;
@@ -35,9 +31,9 @@ h1 {
     color: #FFF;
     font-family: Song;
     font-weight: normal;
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align: center;
-    padding-bottom: 20px;
+    letter-spacing: .03em;
 }
 
 header h1 {
@@ -46,7 +42,7 @@ header h1 {
 }
 
 .skills h1 {
-    padding-bottom: 5px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -54,11 +50,26 @@ h2 {
     font-family: Song;
     font-weight: normal;
     font-size: 1.7em;
+    letter-spacing: .037em;
+}
+
+header h2 {
+    font-size: 1.5em;
 }
 
 .skills h2 {
+    text-align: center;
     margin-top: 20px;
-    padding: 0 5%;
+    padding: 0 10px;
+}
+
+/*HIDE/SHOW INFORMATION*/
+.hidden_info, .hidden_mobile1, .hidden_mobile2, .hidden_grafs, .hidden_mobile3 {
+    display: none;
+}
+
+.show_mobile_digest1, .show_mobile_digest2 {
+    display: inline;
 }
 
 /*NAVIGATION*/
@@ -97,9 +108,13 @@ span {
     color: #fff;
 }
 
+.clips .nav_links span {
+    display: none;
+}
+
 /*ABOUT SECTION*/
 #abouttext {
-    width: 80%;
+    width: 90%;
     max-width: 700px;
     color: #fff;
     margin: auto;
@@ -107,7 +122,7 @@ span {
 
 #abouttext p {
     line-height: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 
@@ -119,6 +134,10 @@ span {
     text-decoration: none;
     font-family: Song;
     font-weight: normal;
+}
+
+.web_links a {
+    text-decoration: underline;
 }
 
 .nav_links a:hover, .web_links a:hover {
@@ -149,8 +168,13 @@ span {
     padding: 0 10px;
 }
 
-.slide3, .slide4 {
+.slide3 {
     padding: 0 2%;
+    text-align: center;
+}
+
+.slide4 {
+    padding: 0 43px;
     text-align: center;
 }
 
@@ -160,7 +184,22 @@ span {
     box-shadow: -5px 5px 5px 5px #333;
 }
 
-.clips .slide2 a, .clips .slide3 a, .clips .slide4 a {
+.clips .slide2 p, .clips .slide3 p, .clips .slide2 a, .clips .slide3 a, .clips .slide4 a {
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Song;
+    font-weight: normal;
+    letter-spacing: .05em;
+}
+
+.clipstitle {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.clipstitle2 {
+    padding-bottom: 5px;
     color: #FFF;
     font-size: 23px;
     text-decoration: none;
@@ -169,15 +208,19 @@ span {
     letter-spacing: .04em;
 }
 
-.clips .slide2 a:hover, .clips .slide3 a:hover, .clips .slide4 a:hover, {
+.mobilelinkpadding {
+    padding-top: 5px;
+}
+
+.clipslastitem {
+    padding-top: 10px;
+}
+
+.clips .slide2 a:hover {
     text-decoration: underline;
 }
 
-.hiddenclips1, .hiddenclips2, .hiddenclips3, .hiddenclips4 {
-    display: none;
-}
-
-/*RESUME SECTION*/
+/*SKILLS SECTION*/
 .skills {
     text-align: center;
 }
@@ -187,7 +230,7 @@ span {
 }
 
 .btn {
-    padding: 10px;
+    padding: 5px 10px;
     background-color: #ccc;
     text-decoration: none;
     font-size: medium;
@@ -201,22 +244,19 @@ span {
 }
 
 #skills_tags {
-    width: 90%;
+    width: 100%;
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 #skills_tags .mix {
     display: none;
 }
 
-#skills_labels {
-    margin-top: 20px;
-}
-
 #skills_tags span {
-    padding: 10px;
-    margin-top: 5px;
+    padding: 5px;
+    margin-top: 3px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     color: #fff;
@@ -226,12 +266,8 @@ span {
     background-color: #3d7f89;
 }
 
-.design {
+.designedt {
     background-color: #04c4bb;
-}
-
-.editing {
-    background-color: #8fd3e7;
 }
 
 .misc_skills {
@@ -250,13 +286,13 @@ span {
 /*CONTACT SECTION*/
 #contactform {
     background: #CCC;
-    width: 80%;
+    width: 95%;
     max-width: 295px;
-    padding: 20px 50px 20px 20px;
+    padding: 15px;
     -moz-border-radius: 10px; 
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 
 label {
@@ -282,7 +318,7 @@ input[type="text"], input[type="email"] {
 }
 
 textarea {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 1px #4D4D4D solid;
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px 5px 5px 5px;
@@ -301,10 +337,10 @@ input[type="submit"], input[type="reset"]{
     font-family: Song;
     font-weight: normal;
     color: #6d6e71;
-    background: #fff; 
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
-    border-radius: 15px;
+    background-color: #fff; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
     display: inline;
 }
 
@@ -327,53 +363,140 @@ footer a:hover {
     text-decoration: none;
 }
 
-
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 435px) {
-    .slide2 img {
-        width: 40%;
+@media screen and (min-width: 350px) {
+    /*HEADINGS*/
+    header h2 {
+        font-size: 1.7em;
     }
 
-    .mobilelinks4 {
+    /*HIDE/SHOW INFORMATION*/
+    .hidden_mobile3 {
+        display: inline;
+    }
+
+    .show_mobile3 {
         display: none;
     }
 
-    .hiddenclips4 {
-        display: inline;
+    /*ABOUT SECTION*/
+    #abouttext {
+        width: 80%;
     }
-}/*end 435px query*/
 
+    /*CLIPS SECTION*/
+    .clips .slide2 p, .clips .slide3 p, .clips .slide4 p, .clips .slide2 a, .clips .slide3 a, .clips .slide4 a {
+        font-size: 23px;
+        letter-spacing: .04em;
+    }
+}/*end 350px query*/
 
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 545px) {
-    .nav_links a {
+@media screen and (min-width: 375px) {
+    /*HEADINGS*/
+    h1 {
+        font-size: 3em;
+        padding-bottom: 20px;
+    }
+
+    .skills h1 {
+        padding-bottom: 5px;
+        margin-top: 0;
+    }
+
+    /*HIDE/SHOW INFORMATION*/
+    .hidden_mobile2 {
         display: inline;
     }
-}/*end 545px query*/
 
-
-/*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 579px) {
-    .slide2 img {
-        width: 30%;
+    .hidden_grafs, .show_mobile_digest1 {
+        display: block;
     }
 
-    .mobilelinks3 {
+    .show_mobile2, .show_mobile_digest2 {
         display: none;
     }
 
-    .hiddenclips3 {
-        display: inline;
+    /*CLIPS SECTION*/
+    .slide4 {
+        padding: 0 2%;
     }
-}/*end 574px query*/
+
+    .clipstitle {
+        padding-bottom: 5px;
+        line-height: 50px;
+    }
+
+    /*SKILLS SECTION*/
+    .btn {
+        padding: 10px;
+    }
+
+    #skills_tags {
+        width: 90%;
+    }
+
+    #skills_labels {
+        margin-top: 20px;
+    }
+
+    #skills_tags span {
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    /*CONTACT SECTION*/
+    #contactform {
+        width: 80%;
+        padding: 20px 50px 20px 20px;
+        margin: 0 auto 20px;
+    }
+
+    textarea {
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        width: 80px;
+        margin-right: 5%;
+        font-size: 20px;
+        -moz-border-radius: 15px; 
+        -webkit-border-radius: 15px; 
+        border-radius: 15px;
+    }
+}/*end 375px query*/
 
 
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 755px) {
+    /*HEADINGS*/
+    h1 {
+        font-size: 3.5em;
+    }
+
     .skills h2 {
         padding: 0;
     }
 
+    /*HIDE/SHOW INFORMATION*/
+    .nav_links a, .clips span, .hidden_mobile1 {
+        display: inline;
+    }
+
+    .show_mobile1, .show_mobile_digest1 {
+        display: none;
+    }
+
+    /*CLIPS SECTION*/
+    .web_links a {
+        text-decoration: none;
+    }
+
+    .slide2 img {
+        width: 30%;
+    }
+
+    /*SKILLS SECTION*/
     .btn {
         padding: 10px;
         font-size: medium;
@@ -384,35 +507,12 @@ footer a:hover {
         max-width: 900px;
         margin: auto;
     }
-}/*end 668px query*/
-
-
-/*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 720px) {
-    .mobilelinks2 {
-        display: none;
-    }
-
-    .hiddenclips2 {
-        display: inline;
-    }
-}/*end 720px query*/
-
-
-/*~~~~~~NEW MEDIA QUERY~~~~~~~*/
-@media screen and (min-width: 755px) {
-    .mobilelinks1 {
-        display: none;
-    }
-
-    .hiddenclips1 {
-        display: inline;
-    }
-}/*end 780px query*/
+}/*end 755px query*/
 
 
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 832px) {
+    /*CLIPS SECTION*/
     .slide3, .slide4 {
         padding: 0 3%;
     }
@@ -421,6 +521,7 @@ footer a:hover {
 
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 930px) {
+    /*CLIPS SECTION*/
     .slide3, .slide4 {
         padding: 0 4%;
     }
@@ -429,6 +530,7 @@ footer a:hover {
 
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 1300px) {
+    /*CLIPS SECTION*/
     .slide3, .slide4 {
         padding: 0;
     }
