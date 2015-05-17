@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: verdana, helvetica, sans-serif;
+	text-align: center;  /* this line is a hack for an older version of IE; it works with the "wrapper" div */ 
+	}
+#wrapper {
+	width: 750px;
+	margin: 20px auto;  /* this line centers the wrapper, except in some old version of IE */
+	text-align: left;   /* this line counteracts the hack in the body declaration */
+	border: 1px solid #FFFFFF; /* you do not need to keep the border */
+	}
+#nav {
+	width: 115px;
+	float: right;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px; 
+	text-align: right;
+	}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	}
+#nav li {
+	list-style-type: none;
+	margin: 20px 0 20px 0;
+	}
+#nav a:link {
+	display: block; 
+	width: 110px; 
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00cccc;
+	text-decoration: none;
+	font-weight: bold;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #fff3da;
+	padding: 3px;
+	}
+#nav a:visited {
+	display: block; 
+	width: 110px; 
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00cccc;
+	text-decoration: none;
+	font-weight: bold;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #fff3da;
+	padding: 3px;
+	}
+#nav a:active {
+	display: block; 
+	width: 110px; 
+	text-align: center; 
+	color: #00cccc; 
+	background-color: #87e7e7; 
+	text-decoration: none;
+	font-weight: bold;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #fff3da;
+	padding: 3px;
+	}
+#nav a:hover {
+	display: block; 
+	width: 110px; 
+	text-align: center;
+	color: #00cccc;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #ccf5f5;
+	padding: 3px;
+	}
+#inactive-link {
+	margin: 0;
+	padding: 0;
+	color: #00cccc;
+	display: block; 
+	width: 110px; 
+	text-align: center;
+	font-weight: bold;
+	border-style: groove;
+	border-width: 2px;
+	border-color: #ccf5f5;
+	padding: 3px;
+	}
+#main-box {
+	background-color: #c2f3f3; /*#87e7e7;*/
+	margin-right: 135px;
+	margin-left: auto;
+	}
+#main-text {
+	margin: 0;
+	padding: 20px;
+	font-size: 12px;
+	}

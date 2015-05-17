@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: verdana, helvetica, sans-serif;
+	text-align: center;  /* this line is a hack for an older version of IE; it works with the "wrapper" div */ 
+	}
+#wrapper {
+	width: 750px;
+	margin: 20px auto;  /* this line centers the wrapper, except in some old version of IE */
+	text-align: left;   /* this line counteracts the hack in the body declaration */
+	border: 1px solid #FFFFFF; /* you do not need to keep the border */
+	}
+#nav {
+	margin: 0;
+	padding: 0;
+	background: #FEF6E4;
+	float: left;
+	width: 100%;
+	border: 1px solid #FEF6E4;
+	border-width: 1px 0;
+	text-align: center;
+	}
+#nav li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+#nav a:link, #nav a:visited, #nav a:active {
+	color: #FFFFFF;
+	background: #00CCCC url(images/corners.gif) no-repeat top left;
+	padding: 15px 20px 4px 10px;
+	float: left;
+	width: 110px;
+	border-right: 1px solid #FEF6E4;
+	font-size: 18px;
+	text-decoration: none;
+	}
+#nav a:hover {
+	color: #48D1CC;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	width: 110px;
+	}
+#nav li:first-child a {
+	border-left: 1px solid #FEF6E4;
+	}
+#inactive-link {
+	color: #000000;
+	background: #87E7E7 url(images/corners.gif) no-repeat top left;
+	padding: 15px 20px 4px 10px;
+	float: left;
+	width: 110px;
+	border-right: 1px solid #FEF6E4;
+	font-size: 18px;
+	}
+#main-box {
+	background-color: #CCF5F5;
+	}
+#main-text {
+	margin: 0;
+	padding: 20px;
+	font-size: 12px;
+	}
