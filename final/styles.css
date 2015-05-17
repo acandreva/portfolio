@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-color: #FFFFFF;
+background-image: url(images/bgimg.gif); 
+background-repeat: repeat-x;
+font-family: palatino, bookman, serif; 
+}
+
+div#wrapper {
+width: 660px;
+margin-left: 0;
+margin-right: auto;
+}
+
+div#site {
+width: 500px;
+background-color: #FFFFFF; /* #B0E2FF; */
+margin-left: 0;
+margin-right: auto;
+}
+
+div#banner {
+background: url(images/banner.gif) no-repeat top right;
+height: 185px;
+}
+
+/* These are the sytles for the links. */
+
+a:link {
+color: #00A49D;
+text-decoration: underline;
+}
+
+a:hover {
+color: #92007B;
+text-decoration: none;
+}
+
+a:active {
+color: #92007B;
+text-decoration: none;
+}
+
+a:visited {
+color: #00A49D;
+text-decoration: underline;
+}
+
+/* This is the end of the link styles. */
+
+div#navigation {
+width: 140px;
+float: right;
+margin-top: 185px;
+margin-left: 5px;
+margin-right: 0;
+padding: 2px;
+background-color: #FFFFFF;
+}
+
+div#navigation ul {
+margin: 0;
+padding: 0;
+}
+
+#navigation li {
+list-style: none;
+margin: 0;
+}
+
+/* These are the styles for the design navigation. */
+
+div#designav {
+width: 560px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#designav a:link {
+text-decoration: none;
+color: #FFFFFF;
+padding: 3px;
+}
+
+#designav a:visited {
+text-decoration: none;
+color: #FFFFFF;
+padding: 3px;
+}
+
+#designav a:hover {
+text-decoration: none;
+color: #FFFFFF;
+padding: 3px;
+}
+
+#designav a:active {
+text-decoration: none;
+color: #FFFFFF;
+padding: 3px;
+}
+
+/* These are the styles for the navigation. */
+
+#navigation a:link {
+text-decoration: none;
+color: #FFFFFF;
+padding: 2px;
+}
+
+#navigation a:visited {
+text-decoration: none;
+color: #FFFFFF;
+padding: 2px;
+}
+
+#navigation a:hover {
+text-decoration: none;
+color: #FFFFFF;
+padding: 2px;
+}
+
+#navigation a:active {
+text-decoration: none;
+color: #FFFFFF;
+padding: 2px;
+}
+
+/* This is the end of the navigation styles. */
+
+div#content {
+/* This is the div for the content.*/
+margin-left: 15px; /* This moves the content to the left leaving room for a right navigation bar */ 
+margin-right: 15px; 
+padding-left: 3px;
+padding-right: 3px;
+text-align: left;
+font-size: 13px;
+font-family: helvetica, lucida, sans-serif;
+/*background-color: #acd5eb;*/
+}
+
+p {
+text-indent: 18px;
+}
+
+h3 {
+font-family: palatino, bookman, serif;
+font-size: 17px;
+color: #4B0082; /* #1290c3;*/
+text-align: left;
+}
+
+h4 {
+font-family: palatino, bookman, serif;
+font-size: 15px;
+text-align: center;
+}
+
+h4 a:link, a:hover, a:active, a:visited {
+color: #0147FA;
+text-decoration: underline;
+}
+
+div#shapes {
+float: left;
+}
+
+div#color {
+float: left;
+}
+
+div#text {
+float: left;
+}
+
+.right {
+float: right;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.left {
+float: left;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+#design-nav {
+width: 560px;
+text-align: center;
+font-size: 13px;
+clear: both;
+margin-bottom: 5px;
+}
+
+#bottom-nav {
+width: 560px;
+text-align: center;
+font-size: 12px;
+clear: both;
+margin-top: 5px;
+}
+
+div#footer {
+/* This is the div for the footer, keep it small and centered.*/
+width: 560px;
+text-align:center;
+font-size: 10px;
+clear: both;
+}
