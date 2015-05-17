@@ -22,7 +22,7 @@
     background-size: 100% 100%;
 }
 
-.about, .resume {
+.about, .skills {
     background-color: #579CA2;
 }
 
@@ -54,7 +54,7 @@ h2 {
     font-size: 1.7em;
 }
 
-.resume h2 {
+.skills h2 {
     margin-top: 20px;
 }
 
@@ -179,7 +179,7 @@ span {
 }
 
 /*RESUME SECTION*/
-.resume {
+.skills {
     text-align: center;
 }
 
@@ -207,13 +207,17 @@ span {
     margin: auto;
 }
 
+#skills_tags .mix {
+    display: none;
+}
+
 #skills_labels {
     margin-top: 20px;
 }
 
 #skills_tags span {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     color: #fff;
@@ -235,12 +239,12 @@ span {
     background-color: #57d1a3;
 }
 
-.resume a {
+.skills a {
     color: #ccc;
     text-decoration: none;
 }
 
-.resume a:hover {
+.skills a:hover {
     text-decoration: underline;
 }
 
