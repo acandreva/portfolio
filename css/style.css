@@ -64,7 +64,7 @@ header h2 {
 }
 
 /*HIDE/SHOW INFORMATION*/
-.hidden_info, .hidden_mobile1, .hidden_mobile2, .hidden_grafs, .hidden_mobile3 {
+.hidden_info, .hidden_mobile1, .hidden_mobile2, .hidden_grafs1, .hidden_grafs2, .hidden_mobile3, .show_mobile_digest3 {
     display: none;
 }
 
@@ -158,7 +158,7 @@ span {
 }
 
 .slide2 {
-    padding: 0 20px;
+    padding: 0 50px;
     text-align: center;
 }
 
@@ -193,12 +193,7 @@ span {
     letter-spacing: .05em;
 }
 
-.clipstitle {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-}
-
-.clipstitle2 {
+.clipstitle, .clipstitle2 {
     padding-bottom: 5px;
     color: #FFF;
     font-size: 23px;
@@ -206,6 +201,11 @@ span {
     font-family: Song;
     font-weight: normal;
     letter-spacing: .04em;
+}
+
+.clipstitle {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
 }
 
 .mobilelinkpadding {
@@ -409,7 +409,7 @@ footer a:hover {
         display: inline;
     }
 
-    .hidden_grafs, .show_mobile_digest1 {
+    .hidden_grafs2, .show_mobile_digest1, .show_mobile_digest3 {
         display: block;
     }
 
@@ -483,8 +483,12 @@ footer a:hover {
         display: inline;
     }
 
-    .show_mobile1, .show_mobile_digest1 {
+    .show_mobile1, .show_mobile_digest1, .show_mobile_digest3 {
         display: none;
+    }
+
+    .hidden_grafs1 {
+        display: block;
     }
 
     /*CLIPS SECTION*/
@@ -513,7 +517,7 @@ footer a:hover {
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 832px) {
     /*CLIPS SECTION*/
-    .slide3, .slide4 {
+    .slide2, .slide3, .slide4 {
         padding: 0 3%;
     }
 }/*end 832px query*/
@@ -522,7 +526,7 @@ footer a:hover {
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 930px) {
     /*CLIPS SECTION*/
-    .slide3, .slide4 {
+    .slide2, .slide3, .slide4 {
         padding: 0 4%;
     }
 }/*end 930px query*/
@@ -531,7 +535,7 @@ footer a:hover {
 /*~~~~~~NEW MEDIA QUERY~~~~~~~*/
 @media screen and (min-width: 1300px) {
     /*CLIPS SECTION*/
-    .slide3, .slide4 {
+    .slide2, .slide3, .slide4 {
         padding: 0;
     }
 }/*end 930px query*/

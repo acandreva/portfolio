@@ -40,7 +40,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
  $clientIP = $_SERVER['REMOTE_ADDR'];
 }
 
-$FTGname = DoStripSlashes( $_POST['name'] );
+$FTGfname = DoStripSlashes( $_POST['fname'] );
+$FTGlname = DoStripSlashes( $_POST['lname'] );
 $FTGemail = DoStripSlashes( $_POST['email'] );
 $FTGcomments = DoStripSlashes( $_POST['comments'] );
 $FTGsubmit = DoStripSlashes( $_POST['submit'] );
@@ -57,7 +58,8 @@ if ($validationFailed === true) {
 
  $errorPage = '<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Error</title></head><body>Errors found: <!--VALIDATIONERROR--></body></html>';
 
- $errorPage = str_replace('<!--FIELDVALUE:name-->', $FTGname, $errorPage);
+ $errorPage = str_replace('<!--FIELDVALUE:fname-->', $FTGfname, $errorPage);
+ $errorPage = str_replace('<!--FIELDVALUE:lname-->', $FTGlname, $errorPage);
  $errorPage = str_replace('<!--FIELDVALUE:email-->', $FTGemail, $errorPage);
  $errorPage = str_replace('<!--FIELDVALUE:comments-->', $FTGcomments, $errorPage);
  $errorPage = str_replace('<!--FIELDVALUE:submit-->', $FTGsubmit, $errorPage);
@@ -77,15 +79,16 @@ if ( $validationFailed === false ) {
 
  # Email to Form Owner
   
- $emailSubject = FilterCChars("Portfolio Form");
+ $emailSubject = FilterCChars("Form From Portfolio");
   
- $emailBody = "name : $FTGname\n"
+ $emailBody = "fname : $FTGfname\n"
+  . "lname : $FTGlname\n"
   . "email : $FTGemail\n"
   . "comments : $FTGcomments\n"
   . "submit : $FTGsubmit\n"
   . "reset : $FTGreset\n"
   . "";
-  $emailTo = 'Allison Logan <ali.cand@yahoo.com>';
+  $emailTo = 'Webmaster <ali.cand@yahoo.com>';
    
   $emailFrom = FilterCChars("ali.cand@yahoo.com");
    
@@ -97,17 +100,9 @@ if ( $validationFailed === false ) {
   mail($emailTo, $emailSubject, $emailBody, $emailHeader);
   
   
-# Include message in the success page and dump it to the browser
+# Redirect user to success page
 
-$successPage = '<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>Success</title></head><body>Form submitted successfully. It will be reviewed soon.</body></html>';
-
-$successPage = str_replace('<!--FIELDVALUE:name-->', $FTGname, $successPage);
-$successPage = str_replace('<!--FIELDVALUE:email-->', $FTGemail, $successPage);
-$successPage = str_replace('<!--FIELDVALUE:comments-->', $FTGcomments, $successPage);
-$successPage = str_replace('<!--FIELDVALUE:submit-->', $FTGsubmit, $successPage);
-$successPage = str_replace('<!--FIELDVALUE:reset-->', $FTGreset, $successPage);
-
-echo $successPage;
+header("Location: http://allisoncandreva.com/formredirect.html");
 
 }
 
