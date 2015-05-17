@@ -1,0 +1,363 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/paper_fibers.png);
+}
+
+@font-face {
+    font-family: "song";
+    src: url(song.ttf)format("truetype");
+}
+
+#container {
+    background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+    width: 1200px;
+    margin: auto;
+    height: 5941px;
+	/*padding-top: 1000px;*/
+}
+
+section {
+	width: 1200px;
+	height: 1000px;
+	margin: auto;
+}
+
+#social {
+	position: fixed;
+	left: 1060px;
+	top: 15px;
+}
+
+.homelogo {
+	margin-left: 425px;
+	margin-top: 100px;/*225px*/
+}
+
+#topbutton {
+	position: fixed;
+	top: 90%;
+	left: 93%;
+}
+
+/*CSS for navigation begins*/
+	
+	.header {
+	position: fixed;
+	top: 0;
+	width: 500px;
+	margin-left: 350px;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	}
+	
+	
+	.header nav {
+		text-align: center;
+	}
+	
+	.header nav a {
+		width: 90px;
+		height: 50px;
+		background: #9bdecd; 
+		-moz-border-radius: 70px; 
+		-webkit-border-radius: 70px; 
+		border-radius: 70px;
+		margin: 5px;
+		float: left;
+		-webkit-box-shadow: 5px 5px 5px 5px #333;
+		box-shadow: 5px 5px 5px 5px #333;
+		color: #FFF;
+		font-size: 28px;
+		text-decoration: none;
+		font-family: Song;
+		font-weight: normal;
+		padding-top: 10px;
+	}
+	
+	.header nav a:hover {
+		text-decoration: underline;
+		-webkit-box-shadow: inset 3px 3px 3px 3px #333;
+		box-shadow: inset 3px 3px 3px 3px #333;
+	}
+	
+	.header-middle {
+		top: 400px;
+	}
+	
+	.header-top {
+		top: 10px;
+	}
+	
+	/*End CSS for navigation*/
+
+
+h1 {
+    margin-left: 50px;
+    color: #FFF;
+    font-family: Song;
+    font-weight: normal;
+    font-size: 100px;
+	text-shadow: 5px 5px 5px #333;
+    padding-top: 50px;
+}
+
+h2, h3 {
+	color: #FFF;
+    font-family: Song;
+	font-weight: normal;
+	font-size: 40px;
+	text-shadow: 5px 5px 5px #000;
+	border-bottom: 2px solid #FFF;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+h4 {
+	color: #FFF;
+    font-family: Song;
+	font-weight: normal;
+	font-size: 35px;
+	text-shadow: 5px 5px 5px #000;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #FFF;
+}
+
+#abouttext {
+    background-image: url(images/aboutbox.png);
+    width: 432px;
+    height: 502px;
+    margin-left: 400px;
+    padding: 20px 40px 20px 20px;
+}
+
+#abouttext p {
+	line-height: 20px;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#clipscontent, #mediacontent {
+	width: 600px;
+	height: 600px;
+    margin-left: 300px;
+	overflow-y: scroll;
+}
+
+/* This is where the info for the sprite/rollover goes*/
+#clipscontent ul, #mediacontent ul {
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+	}
+	
+#clipscontent ul li, #mediacontent ul li {
+	float: left;
+	margin: 0 2px 10px 2px; 
+	}
+
+#clipscontent ul li a, #mediacontent ul li a {
+	display: block;
+	width: 139px; 
+	height: 133px; 
+	}
+	
+#clipscontent ul li a:hover, #mediacontent ul li a:hover {
+ 	background-position: center 137px; 
+	}
+	
+/*Clips thumbnails*/
+
+/*NYT Times Digest clips thumbnails*/		
+#td072314 {background-image: url(images/thumbs/td072314thumb.png);}
+#td072214 {background-image: url(images/thumbs/td072214thumb.png);}
+#td072114 {background-image: url(images/thumbs/td072114thumb.png);}
+#td071714 {background-image: url(images/thumbs/td071714thumb.png);}
+#td062014 {background-image: url(images/thumbs/td062014thumb.png);}
+#td061914 {background-image: url(images/thumbs/td061914thumb.png);}
+#td060914 {background-image: url(images/thumbs/td060914thumb.png);}
+#td052914 {background-image: url(images/thumbs/td052914thumb.png);}
+#td052814 {background-image: url(images/thumbs/td052814thumb.png);}
+#td052014 {background-image: url(images/thumbs/td052014thumb.png);}
+#td051914 {background-image: url(images/thumbs/td051914thumb.png);}
+#td050714 {background-image: url(images/thumbs/td050714thumb.png);}
+#td050514 {background-image: url(images/thumbs/td050514thumb.png);}
+#td042814 {background-image: url(images/thumbs/td042814thumb.png);}
+#td032414 {background-image: url(images/thumbs/td032414thumb.png);}
+#td031214 {background-image: url(images/thumbs/td031214thumb.png);}
+#td031114 {background-image: url(images/thumbs/td031114thumb.png);}
+#td031014 {background-image: url(images/thumbs/td031014thumb.png);}
+#td111111 {background-image: url(images/thumbs/td111111thumb.png);}
+#td102211 {background-image: url(images/thumbs/td102211thumb.png);}
+#td101511 {background-image: url(images/thumbs/td101511thumb.png);}
+#td081911 {background-image: url(images/thumbs/td081911thumb.png);}
+#td080111 {background-image: url(images/thumbs/td080111thumb.png);}
+#td072911 {background-image: url(images/thumbs/td072911thumb.png);}
+#td072811 {background-image: url(images/thumbs/td072811thumb.png);}
+#td072711 {background-image: url(images/thumbs/td072711thumb.png);}
+#td072611 {background-image: url(images/thumbs/td072611thumb.png);}
+#td072511 {background-image: url(images/thumbs/td072511thumb.png);}
+#td072211 {background-image: url(images/thumbs/td072211thumb.png);} 
+
+/*International Daily clips thumbnails*/	
+#id080910 {background-image: url(images/thumbs/id080910thumb.png);}
+#id080210 {background-image: url(images/thumbs/id080210thumb.png);}
+#id072610 {background-image: url(images/thumbs/id072610thumb.png);}
+
+/*Lake City Reporter clips thumbnails*/	
+#lcr042910 {background-image: url(images/thumbs/lcr042910thumb.png);}
+#lcr042410 {background-image: url(images/thumbs/lcr042410thumb.png);}
+#lcr042310 {background-image: url(images/thumbs/lcr042310thumb.png);}
+#lcr041510 {background-image: url(images/thumbs/lcr041510thumb.png);}
+#lcr040910 {background-image: url(images/thumbs/lcr040910thumb.png);}
+#lcr031010 {background-image: url(images/thumbs/lcr031010thumb.png);}
+
+/*Other clips thumbnails*/	
+#senior {background-image: url(images/thumbs/seniorthumb.png);}
+#ourtown {background-image: url(images/thumbs/ourtownthumb.png);}
+#satellite {background-image: url(images/thumbs/satellitethumb.png);}
+#other {background-image: url(images/thumbs/otherthumb.png);}
+
+
+/*Media thumbnails*/
+
+/*Indesign*/
+#recipebook {background-image: url(images/thumbs/recipebookthumb.png);}
+#travel {background-image: url(images/thumbs/travelthumb.png);}
+#guide {background-image: url(images/thumbs/guidethumb.png);}
+#flyers {background-image: url(images/thumbs/flyerthumb.png);}
+
+/*Photoshop*/
+#cokead {background-image: url(images/thumbs/cokeadthumb.png);}
+#fungator {background-image: url(images/thumbs/fungatorthumb.png);}
+#leader {background-image: url(images/thumbs/leaderthumb.png);}
+#shampoo {background-image: url(images/thumbs/shampoothumb.png);}
+#sochi {background-image: url(images/thumbs/sochisitethumb.png);}
+#composite {background-image: url(images/thumbs/compositethumb.png);}
+#daycare {background-image: url(images/thumbs/daycarelogothumb.png);}
+#retire {background-image: url(images/thumbs/retirelogothumb.png);}
+
+/*Illustrator*/
+#floridakids {background-image: url(images/thumbs/fkewthumb.png);}
+#jones {background-image: url(images/thumbs/jonesthumb.png);}
+#remade2 {background-image: url(images/thumbs/remadeguidethumb.png);}
+#remade1 {background-image: url(images/thumbs/remadeidentitythumb.png);}
+
+/*Flash*/
+#vegshow {background-image: url(images/thumbs/vegshowthumb.png);}
+#ccvideo {background-image: url(images/thumbs/ccvideothumb.png);}
+#kitk {background-image: url(images/thumbs/kitkthumb.png);}
+#recipe {background-image: url(images/thumbs/recipethumb.png);}
+#mars {background-image: url(images/thumbs/marsthumb.png);}
+#series {background-image: url(images/thumbs/seriesthumb.png);}
+#swat {background-image: url(images/thumbs/swatthumb.png);}
+#blank {background-image: url(images/thumbs/blankthumb.png);}
+/*#june {background-image: url(images/thumbs/junethumb.png);}*/
+
+/*Slideshows*/
+#animals {background-image: url(images/thumbs/animalsthumb.png);}
+#berlin {background-image: url(images/thumbs/berlinthumb.png);}
+#centralpark {background-image: url(images/thumbs/centralparkthumb.png);}
+#misc {background-image: url(images/thumbs/miscthumb.png);}
+#paris {background-image: url(images/thumbs/paristhumb.png);}
+#people {background-image: url(images/thumbs/peoplethumb.png);}
+#plants {background-image: url(images/thumbs/plantsthumb.png);}
+#workphotos {background-image: url(images/thumbs/workphotosthumb.png);}
+
+
+#resume img{
+	width: 600px;
+    margin-left: 300px;
+	-webkit-box-shadow: 5px 5px 5px 5px #333;
+	box-shadow: 5px 5px 5px 5px #333;
+    border-radius: 20px;
+	border: 1px solid #333;	
+}
+
+#contact {
+    width: 1200px;
+    height: 900px;
+}
+
+#contactform {
+    background-image: url(images/contactbox.png);
+    width: 430px;
+    height: 580px;
+    margin-left: 400px;
+    padding: 20px 50px 20px 20px;
+}
+
+/*
+#myform {
+    background-image: url(images/contactbox.png);
+    width: 350px;
+    height: 530px;
+    padding: 20px 50px 20px 20px;
+}
+
+label {
+	font-size: 25px;
+	font-family: Song;
+}
+
+input {
+	width: 330px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px #4D4D4D solid;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+textarea {
+	margin-bottom: 5px;
+	border: 1px #4D4D4D solid;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	width: 100px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Song;
+	font-weight: normal;
+	color: #6d6e71;
+	background: #9bdecd; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+}
+
+input[type="submit"] {
+	margin-right: 10px;
+}
+
+
+*/
+
+#footer {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
