@@ -4,7 +4,7 @@ $(document).ready( function () {
     $('#fullpage').fullpage();
 
     //FANCYBOX
-    $(".fancybox").fancybox();
+    $(".recipebook, .resumefile").fancybox();
 
     //MIXITUP FILTERING
     $(function(){

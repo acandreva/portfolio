@@ -12,16 +12,11 @@
     src: url(../fonts/song.ttf)format("truetype");
 }
 
+.hidden_info {
+    display: none;
+}
+
 /*BACKGROUNDS*/
-
-/*.home, .contact {
-    background-image: url(../images/grandcanyon.jpg);
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-}*/
-
 .about, .skills {
     background-color: #579CA2;
 }
@@ -96,14 +91,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-/*MAIN CONTENT*/
-/*section {
-    width: 100%;
-    margin: auto;
-}*/
-
-
 /*HOME SECTION*/
 header {
     text-align: center;
@@ -121,7 +108,7 @@ span {
 }
 
 #abouttext {
-    max-width: 500px;
+    max-width: 700px;
     padding-top: 20px;
     color: #fff;
     margin: auto;
@@ -167,12 +154,12 @@ span {
     padding: 0 10px;
 }
 
-.slide4 {
+.slide3, .slide4 {
     padding: 0 4%;
     text-align: center;
 }
 
-.slide4 img {
+.slide3 img, .slide4 img {
     margin: 0 10px 20px;
     -webkit-box-shadow: -5px 5px 5px 5px #333;
     box-shadow: -5px 5px 5px 5px #333;
