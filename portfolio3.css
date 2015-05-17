@@ -1,4 +1,4 @@
-/* This is the stylesheet for my current resume and portfolio site. */
+/* This is the stylesheet for my resume and portfolio site. */
 
 body {
 	background-color: #FFF;
@@ -119,9 +119,10 @@ div#wrapper {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
+	height: 500px;
 }
 
-/* These are the styles for the sidebar. */
+/* This is the styles for the sidebar. */
 
 div#sidebar {
 	width: 175px;
@@ -135,12 +136,9 @@ div#sidebar {
 	text-align: left;*/
 }
 
-/*#sidebar ul {
-	list-style-type: none;
-}
 
 
-/* These are the styles for the links. */
+/* These are the sytles for the links. */
 
 a:link {
 color: #0198E1;
@@ -165,9 +163,9 @@ text-decoration: underline;
 /* This is the end of the link styles. */
 
 div#content {
-	width: 600px;
+	width: 500px;
 	margin-left: 150px;
-	margin-right: 150px; 
+	margin-right: 150px;
 	padding-left: 3px;
 	padding-right: 3px;
 	text-align: left;
@@ -194,60 +192,59 @@ h3 {
 
 h4 {
 	font-size: 13px;
-	color: #333;
-}
-
-#quote {
-	width: 400px;
-	margin-left: 25px;
-	margin-right: 25px; 
-	}
-
-#resume {
-	width: 700px;
-	margin-left: 50px;
-	margin-right: 200px; 
-	padding-left: 2px;
-	padding-right: 2px;
-	text-align: left;
+	color: #000;
 }
 
 #box {
-	width: 470px;
+	width: 525px;
 	margin-left: 200px;
 	margin-right: 200px; 
 	padding-left: 3px;
 	padding-right: 3px;
 }
 
-#tower, #satellite, #other {
+#times, #tower, #reporter {
 	width: 150px;
 	margin: 7px;
 	padding: 0;
 	float: left;
 }
 
-/*These are the styles for photos, clips, flash and portfolio (p). One, onea, oneb, onec, oned, onee, pone, ponea, poneb are the same. Three, threea, threeb and threec are the same. */
+#satellite, #adobe {
+	width: 237px;
+	margin: 7px;
+	padding: 0;
+	float: left;
+	clear: both;
+}
 
-#one, #onea, #oneb, #onec, #oned, #onee, #pone, #ponea, #poneb, #ponec {
+#other, #otherdesign {
+	width: 237px;
+	margin: 7px;
+	padding: 0;
+	float: right;
+}
+
+#leaderboard {
+	width: auto;
+	margin-top: 200px;
+	padding: 0;
+}
+
+#one, #two, #four {
 	width: 200px;
 	margin: 12px;
 	padding: 0;
 	float: left;
 }
 
-#three, #threea, #threeb, #threec, #pthree, #pthreea {
+#three {
 	width: 200px;
 	margin: 12px;
 	padding: 0;
 	float: left;
 	clear: both;
 }
-
-#ponec ul {
-	list-style-type: none;
-	line-height: 16px;
-}	
 
 #five {
 	width: 200px;
@@ -256,22 +253,24 @@ h4 {
 	float: left;
 }
 
-#six {
-	width: 400px;
-	padding: 0;
+.times {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
-.tower, .gator {
-	margin-top: 30px;
-	margin-bottom: 45px;
+.reporter {
+	margin-bottom: 12px;
 }
 
-img.alignnone {
-	margin-right: 7px;
-	margin-bottom: 0;
+.tower {
+	margin-top: 20px;
+	margin-bottom: 37px;
 }
 
-/* end styles */
+.gator {
+	margin-top: 20px;
+	margin-bottom: 43px;
+}
 
 .boxlayout {
 	margin: 10px;
