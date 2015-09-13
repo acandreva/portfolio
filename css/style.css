@@ -103,6 +103,11 @@ nav a:hover {
 header {
     text-align: center;
 }
+header img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
 
 span {
     font-family: arial;
