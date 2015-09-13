@@ -31,7 +31,7 @@
         <h1 class="hidden_info">Header Section</h1>
         <header>
         <h1>Allison Logan</h1>
-        <h2>editor <span>|</span> designer <span>|</span> web designer</h2>
+        <h2>editor <span>|</span> designer <span>|</span> web developer</h2>
         </header>
     </section>
 
@@ -299,7 +299,7 @@
                         <span class="mix misc_skills tagst">social_media</span>
                     </div>
                 </div><!--end skills tags-->
-                <h2 class="hidden_mobile2">If you would like, you can <a class="resumefile" href="images/loganresume.pdf" data-fancybox-type="iframe" title="Allison Logan | Re&#769;sume&#769;">view</a> or <a href="images/loganresume.pdf">download</a> my resume.
+                <h2 class="hidden_mobile2">If you would like, you can <a class="resumefile" href="images/loganresume.pdf" data-fancybox-type="iframe" title="Allison Logan | Re&#769;sume&#769;">view</a> or <a href="images/loganresume.pdf" target="_blank">download</a> my resume.
                 </h2>
                 
     </section> <!--end of resume section-->
@@ -308,17 +308,17 @@
     <section data-anchor="contact" class="section contact">
         <h1>Contact</h1>
         <div id="contactform">
-            <form id="myform" action="portfolio.php" method="get" autocomplete="on">
+            <form id="myform" action="portfolioform.php" method="post">
                 <label for="fname" class="hidden_mobile2">First Name:</label>
-                <input type="text" class="hidden_mobile2" name="fname" id="fname" placeholder="First name goes here ..."/>
+                <input type="text" class="hidden_mobile2" name="fname"/>
                 <label for="lname" class="hidden_mobile2">Last Name:</label>
-                <input type="text" class="hidden_mobile2" name="lname" id="lname" placeholder="Last name goes here ..."/>
+                <input type="text" class="hidden_mobile2" name="lname"/>
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="youremail@something.com"/>
-                <label for="comments">Comments:</label>
-                <textarea rows="3" cols="50%" name="comments" id="comments" placeholder="Text goes here ..."></textarea>
-                <input type="submit" formtarget="_blank" name="submit" value="Submit" id="submit" />
-                <input type="reset" formtarget="_blank" name="reset" value="Reset" id="reset" />
+                <input type="email" name="email"/>
+                <label for="message">Comments:</label>
+                <textarea name="message"></textarea>
+                <input type="submit" name="submit" value="Submit"/>
+                <input type="reset" name="reset" value="Reset"/>
             </form>
         </div>
         <footer>
