@@ -1,10 +1,14 @@
 $(document).ready( function () {
 
-    //FULLPAGE
-    $('#fullpage').fullpage();
-
     //FANCYBOX
     $(".recipebook, .resumefile").fancybox();
+
+    //MASONRY
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: 80
+    });
 
     //MIXITUP FILTERING
     $(function(){
