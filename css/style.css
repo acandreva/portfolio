@@ -109,10 +109,13 @@ nav a {
     font-weight: normal;
 }
 
+nav a:visited, nav a:active {
+    color: #FFF;
+}
+
 nav a:hover {
     text-decoration: underline;
 }
-
 
 /*HOME SECTION*/
 header {
